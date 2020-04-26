@@ -15,7 +15,8 @@
     "siteFonts": [],
     "imageResize": true,
     "uniqCompNum": 3,
-    "versionPublish": "4.12.3"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -36,16 +37,16 @@
             "showButtons": false,
             "showArrow": false,
             "contentAlign": "left",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/lance-anderson-qdaaasrzhdk-unsplash-2000x1333.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/coverimage-1950x1300-1950x1300.png",
             "parallax": false,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff8e0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.8"
           },
@@ -60,7 +61,11 @@
           "_anchor": "header4-a",
           "_styles": {
             "H1": {
-              "color": "#000000"
+              "color": "#fff8e0"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#fff8e0"
             }
           }
         },
@@ -71,15 +76,15 @@
             "showMeta": false,
             "showText": true,
             "showButtons": false,
-            "inverse": false,
+            "inverse": true,
             "imageSize": "25",
             "paddingTop": "4",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/socialmediaimage_1200x630-1200x630.png",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fff8e0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -169,7 +174,7 @@
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#fff8e0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"

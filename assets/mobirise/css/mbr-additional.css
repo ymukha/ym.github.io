@@ -1,5 +1,9 @@
 #header4-a H1 {
-  color: #000000;
+  color: #fff8e0;
+}
+#header4-a P {
+  text-align: left;
+  color: #fff8e0;
 }
 #msg-box1-1 H2 {
   font-size: 24px;
